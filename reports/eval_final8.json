@@ -1,0 +1,23 @@
+{
+  "tag": "final8",
+  "model_dir": "C:\\Users\\hi\\Documents\\laya-mn\\out_mn",
+  "n_decisions": 5668,
+  "per_question": {
+    "intent": {
+      "accuracy": 0.9239049740163325,
+      "n": 2694
+    },
+    "scenario": {
+      "accuracy": 0.875252185608608,
+      "n": 2974
+    }
+  },
+  "mean_nll": 0.4835508174130916,
+  "accuracy_overall": 0.8983768525052929,
+  "ece": 0.058678517659669936,
+  "random_baseline": {
+    "scenario": 0.05555555555555555,
+    "intent": 0.25
+  },
+  "elapsed_s": 25.2
+}

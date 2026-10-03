@@ -1,0 +1,23 @@
+{
+  "tag": "email_on_general",
+  "model_dir": "out_mn_email",
+  "n_decisions": 5668,
+  "per_question": {
+    "intent": {
+      "accuracy": 0.5846325167037862,
+      "n": 2694
+    },
+    "scenario": {
+      "accuracy": 0.7360457296570275,
+      "n": 2974
+    }
+  },
+  "mean_nll": 1.3849906322983723,
+  "accuracy_overall": 0.6640790402258292,
+  "ece": 0.15302669573456948,
+  "random_baseline": {
+    "scenario": 0.05555555555555555,
+    "intent": 0.25
+  },
+  "elapsed_s": 21.8
+}

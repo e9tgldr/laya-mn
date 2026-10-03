@@ -1,0 +1,23 @@
+{
+  "tag": "baseline_mn",
+  "model_dir": "C:\\Users\\hi\\Documents\\laya-mn\\model\\multilingual",
+  "n_decisions": 5668,
+  "per_question": {
+    "intent": {
+      "accuracy": 0.47141796585003715,
+      "n": 2694
+    },
+    "scenario": {
+      "accuracy": 0.15131136516476126,
+      "n": 2974
+    }
+  },
+  "mean_nll": 3.6739709146408432,
+  "accuracy_overall": 0.30345800988002825,
+  "ece": 0.4277378415101291,
+  "random_baseline": {
+    "scenario": 0.05555555555555555,
+    "intent": 0.25
+  },
+  "elapsed_s": 26.1
+}

@@ -1,0 +1,49 @@
+{
+  "tag": "email_spec_cal",
+  "items": "items_email.pt",
+  "source_model": "C:\\Users\\hi\\Documents\\laya-mn\\out_mn_email",
+  "calibrated_model": "C:\\Users\\hi\\Documents\\laya-mn\\out_mn_email_cal",
+  "fit_split": "validation",
+  "fit_qid": "all",
+  "fit_items": 471,
+  "temperature_before": [
+    2.9833409786224365,
+    1.2,
+    1.2
+  ],
+  "temperature_after": [
+    4.333264350891113,
+    1.2,
+    1.2
+  ],
+  "before": {
+    "accuracy": 0.8745387453874539,
+    "ece": 0.07773608302864785,
+    "mean_nll": 0.6665389004579704,
+    "per_question": {
+      "intent": {
+        "accuracy": 0.9261992619926199,
+        "n": 271
+      },
+      "scenario": {
+        "accuracy": 0.8487084870848709,
+        "n": 542
+      }
+    }
+  },
+  "after": {
+    "accuracy": 0.8745387453874539,
+    "ece": 0.04523730378822502,
+    "mean_nll": 0.5827717300479244,
+    "per_question": {
+      "intent": {
+        "accuracy": 0.9261992619926199,
+        "n": 271
+      },
+      "scenario": {
+        "accuracy": 0.8487084870848709,
+        "n": 542
+      }
+    }
+  }
+}

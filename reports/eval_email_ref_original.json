@@ -1,0 +1,23 @@
+{
+  "tag": "email_ref_original",
+  "model_dir": "out_mn",
+  "n_decisions": 813,
+  "per_question": {
+    "intent": {
+      "accuracy": 0.9188191881918819,
+      "n": 271
+    },
+    "scenario": {
+      "accuracy": 0.9040590405904059,
+      "n": 542
+    }
+  },
+  "mean_nll": 0.44217328390600286,
+  "accuracy_overall": 0.9089790897908979,
+  "ece": 0.05031165933330406,
+  "random_baseline": {
+    "scenario": 0.05555555555555555,
+    "intent": 0.25
+  },
+  "elapsed_s": 3.8
+}

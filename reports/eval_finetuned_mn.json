@@ -1,0 +1,23 @@
+{
+  "tag": "finetuned_mn",
+  "model_dir": "C:\\Users\\hi\\Documents\\laya-mn\\out_mn",
+  "n_decisions": 5668,
+  "per_question": {
+    "intent": {
+      "accuracy": 0.9205642167780252,
+      "n": 2694
+    },
+    "scenario": {
+      "accuracy": 0.8658372562205784,
+      "n": 2974
+    }
+  },
+  "mean_nll": 0.49016386834254205,
+  "accuracy_overall": 0.891848976711362,
+  "ece": 0.04780733587723769,
+  "random_baseline": {
+    "scenario": 0.05555555555555555,
+    "intent": 0.25
+  },
+  "elapsed_s": 20.5
+}
